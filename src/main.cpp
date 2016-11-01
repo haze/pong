@@ -209,8 +209,8 @@ void draw(sf::RenderWindow &wind) {
       //wind.draw(ut::createText(WIDTH - 40, 10, std::to_string(robot.score), 45));
 
       wind.draw(ut::rectangle(WIDTH / 2, 0, 1, HEIGHT));
-      wind.draw(ut::createCenteredText((WIDTH / 4), 34, std::to_string(robot.score), 50));
-      wind.draw(ut::createCenteredText((WIDTH / 4) * 3 , 35, std::to_string(player.score), 50));
+      wind.draw(ut::createCenteredText((WIDTH / 4) * 3, 35, std::to_string(robot.score), 50));
+      wind.draw(ut::createCenteredText((WIDTH / 4), 35, std::to_string(player.score), 50));
       wind.draw(ut::createText(10, HEIGHT - 60, diffMap[gameDiff], 50));
    }
   // wind.draw(ut::createText(2, 2, std::to_string(pongSpeed), 50));
